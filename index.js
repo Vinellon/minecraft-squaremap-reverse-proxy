@@ -15,5 +15,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(3000, () => {
-  console.log('Proxy server is running on http://localhost:3000');
+  console.log('Proxy server is running on MAP_SERVER_URL');
 });
